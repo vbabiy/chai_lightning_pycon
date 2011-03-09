@@ -1,7 +1,8 @@
 { 
 	"name": "Chai", 
 	"sections": [ 
-		{"section":"about_me"},
-		{"section":"overview"}
+		{"section":"intro"},
+		{"section":"chai"},
+		{"section":"conclusion"}
 	]
 }
