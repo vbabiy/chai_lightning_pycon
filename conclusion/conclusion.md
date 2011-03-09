@@ -11,9 +11,9 @@
 
 # Is Chai being used #
 
-## YES!
-
-* At AgoraGames we are porting all existing pymox test to chai
+* **YES!**
+* At AgoraGames
+* We are porting all existing pymox test to chai
 * All future development is using Chai
 
 !SLIDE smbullets transition=toss
