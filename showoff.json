@@ -1,0 +1,7 @@
+{ 
+	"name": "Chai", 
+	"sections": [ 
+		{"section":"about_me"},
+		{"section":"overview"}
+	]
+}
