@@ -38,8 +38,8 @@
     @@@ python
     def test_stub_name(self):
         obj = MyClass()
-        expect(obj.name).returns("Vitaly Babiy")
-        assert_equals('Vitaly Babiy', obj.name)
+        expect(obj.name).returns("Vitaly")
+        assert_equals('Vitaly', obj.name)
 
 !SLIDE code small transition=toss
 
@@ -50,7 +50,7 @@
         obj = MyClass()
         expect(obj.name).returns("Vitaly").at_least(5)
         for x in xrange(4):
-          assert_equals('Vitaly Babiy', obj.name)
+          assert_equals('Vitaly', obj.name)
 
         # Raises error, obj.name was not called 5 times
 
@@ -89,6 +89,25 @@
     at_most_once()
     once()
     any_order()
+
+
+!SLIDE smbullets transition=toss
+
+# Arg Comparators #
+
+    @@@ python
+    ignore()
+    equals(object)
+    is_a(type)
+    is_arg(object)
+    almost_equals(float, places)
+    any_of(comparator_list)
+    all_of(comparator_list)
+    not_of(comparator)
+    matches(regex_pattern)
+    func(callable)
+    in_arg(in_list)
+    contains(object)
 
 
 !SLIDE bullets code transition=toss
