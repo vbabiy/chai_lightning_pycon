@@ -1,8 +1,11 @@
-!SLIDE transition=toss
+!SLIDE transition=toss center
+
 
 # We want your help #
 
 ## Fork on github and sumbit pull requests
+
+![We want you](uncle_sam_pointing_finger.jpg)
 
 !SLIDE smbullets transition=toss
 
