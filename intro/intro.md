@@ -1,6 +1,6 @@
 !SLIDE
 
-# Chai #
+# chai #
 
 !SLIDE bullets center transition=toss
 

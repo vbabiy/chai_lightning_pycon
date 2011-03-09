@@ -1,11 +1,13 @@
 !SLIDE smbullets incremental transition=toss center
 
-# Chai? #
+# chai? #
 * Easy to use mocking/stubbing framework
+* **Does not use** the setup, then replay model
 * Robust expectation library
 * Robust set of Argument Comparators
 * Extensive test suite
 * API is patterned after the Mocha mocking library
+* Fun!
 
 !SLIDE center transition=toss
 
@@ -64,7 +66,7 @@
             # Pass in a mock, is stored as obj.handle
             obj = CustomObject( mock() )
 
-            # Setting a expectation on do
+            # Setting an expectation on do
             expect( obj.handle.do ).args('it').returns('ok')
             assert_equals('ok', obj.do('it'))
 
@@ -81,6 +83,7 @@
     args(*args, **kwargs)
     returns(value)
     raises(exception)
+    side_effect(callable)
 
     times(int)
     at_least(int)
@@ -93,7 +96,7 @@
 
 !SLIDE smbullets transition=toss
 
-# Arg Comparators #
+# Argument Comparators #
 
     @@@ python
     ignore()
@@ -112,7 +115,7 @@
 
 !SLIDE bullets code transition=toss
 
-#Where to find Chai#
+#Where to find chai#
 
 * It's up on PyPi
 
