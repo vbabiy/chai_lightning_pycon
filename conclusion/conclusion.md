@@ -1,10 +1,10 @@
-!SLIDE transition=turnUp
+!SLIDE transition=toss
 
 # We want your help #
 
 ## Fork on github and sumbit pull requests
 
-!SLIDE smbullets transition=turnUp
+!SLIDE smbullets transition=toss
 
 # Contact Info #
 

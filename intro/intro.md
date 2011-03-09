@@ -2,8 +2,12 @@
 
 # Chai #
 
-!SLIDE bullets center transition=turnUp
+!SLIDE bullets center transition=toss
 
-* Vitaly Babiy
-* AgoraGames - http://agoragames.com/
-* @vitaly_babiy
+# Vitaly Babiy #
+
+## @vitaly_babiy
+
+
+![GitHub](agora_logo.jpg)
+
