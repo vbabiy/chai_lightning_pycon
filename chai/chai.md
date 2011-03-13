@@ -20,12 +20,12 @@
 
 # Lets See the Code #
 
-!SLIDE code small transition=toss
+!SLIDE small transition=toss
 
 # Creating a Mock #
     mock() # Returns a mock object
 
-!SLIDE code small transition=toss
+!SLIDE small transition=toss
 
 # Mocking object in module #
 
@@ -33,7 +33,7 @@
     mock(custom_module, 'some_object')
     custom_module.some_object # Is a mock object now
 
-!SLIDE code small transition=toss
+!SLIDE small transition=toss
 
 # Stubbing #
 
@@ -43,7 +43,7 @@
         expect(obj.name).returns("Vitaly")
         assert_equals('Vitaly', obj.name)
 
-!SLIDE code small transition=toss
+!SLIDE small transition=toss
 
 # Expectation #
 
@@ -56,7 +56,7 @@
 
         # Raises error, obj.name was not called 5 times
 
-!SLIDE code small transition=toss
+!SLIDE small transition=toss
 
 # Bring it together #
 
@@ -113,13 +113,13 @@
     contains(object)
 
 
-!SLIDE bullets code transition=toss
+!SLIDE bullets transition=toss commandline
 
 #Where to find chai#
 
 * It's up on PyPi
 
-    $ pip install chai
+	$ pip install chai
 
 * Fork it on github
 * https://github.com/agoragames/chai

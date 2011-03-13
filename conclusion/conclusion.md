@@ -14,7 +14,7 @@
 * **YES!**
 * At AgoraGames
 * We are porting all existing pymox test to chai
-* All future development is using Chai
+* All future development is using chai
 
 !SLIDE smbullets transition=toss
 

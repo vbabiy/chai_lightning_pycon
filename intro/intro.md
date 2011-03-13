@@ -1,6 +1,5 @@
-!SLIDE
-
-# chai #
+!SLIDE center
+![Chai](logo.png)
 
 !SLIDE bullets center transition=toss
 
@@ -9,5 +8,5 @@
 ## @vitaly_babiy
 
 
-![GitHub](agora_logo.jpg)
+![agora logo](agora_logo.jpg)
 
