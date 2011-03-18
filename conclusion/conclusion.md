@@ -2,7 +2,7 @@
 
 # We want your help #
 
-## Fork on github and sumbit pull requests
+## Fork on github and submit pull requests
 
 ![We want you](uncle_sam_pointing_finger.jpg)
 
